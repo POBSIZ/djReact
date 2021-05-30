@@ -1,5 +1,8 @@
-import './css/App.css';
 import React, { Component } from 'react';
+import { hot } from 'react-hot-loader';
+
+// CSS
+import './App.css';
 
 class App extends Component {
     state = {
@@ -20,9 +23,9 @@ class App extends Component {
 
     render() {
         return (
-            <div>
+            <div className="api">
                 {this.state.posts.map(item => (
-                    <div key={item.id}>
+                    <div className="api-itm" key={item.id}>
                         <h1>{item.title}</h1>
                         <span>{item.content}</span>
                     </div>
@@ -32,4 +35,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default hot(module)(App);

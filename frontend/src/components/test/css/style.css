@@ -1,0 +1,50 @@
+.container{
+    width: 50%;
+    margin: auto;
+}
+
+
+/* INFO */
+.info{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.info:first-child{
+    margin: 0;
+}
+
+.info > h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.info > p{
+    width: fit-content;
+    padding: 10px 5%;
+    margin: auto;
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/* TLI */
+.tli{
+    width: fit-content;
+    width: 20%;
+    padding: 20px 0px;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 5px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(73, 73, 73, 30%);
+    border-radius: 20px;
+}
+
+.tli > p{
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 10px;
+}

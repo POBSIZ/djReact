@@ -1,5 +1,6 @@
 START=[
     npm install
+    npm start
 ]
 
 Module=[
